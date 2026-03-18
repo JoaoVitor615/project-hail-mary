@@ -1,8 +1,8 @@
 CC      = gcc
 CFLAGS  = -Wall -Wextra -Iinclude
-LIBS    = -lncurses
+LIBS    = -lncurses -lcurl
 
-SRC     = src/main.c src/intro.c
+SRC     = src/main.c src/intro.c src/nasa/nasa_api.c
 TARGET  = hail_mary
 
 all: $(TARGET)
