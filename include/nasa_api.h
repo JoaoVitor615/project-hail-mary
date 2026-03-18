@@ -1,0 +1,1 @@
+void get_coordenates(const char* planet_id, const char* center, char* output_buffer);
