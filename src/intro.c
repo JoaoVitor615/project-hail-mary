@@ -2,7 +2,7 @@
 #include <unistd.h>
 #include <string.h>
 #include <time.h>
-#include "../include/constants.h"
+#include "constants.h"
 
 void typewriter(int y, int x, const char* text, int speed_ms) {
     for (int i = 0; text[i] != '\0'; i++) {
