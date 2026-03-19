@@ -21,6 +21,8 @@
 #define ID_EARTH   "399"
 #define ID_MARS    "499"
 
+#define RESPONSE_START_COORDINATES "$$SOE"
+
 // BASE API URL for NASA's JPL Horizons
 #define HORIZONS_API_URL "https://ssd.jpl.nasa.gov/api/horizons.api"
 
